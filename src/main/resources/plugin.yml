@@ -1,0 +1,12 @@
+name: WWV
+version: '${project.version}'
+main: cf.itoncek.weirdwelprvideo.WeirdWelprVideo
+api-version: 1.18
+prefix: Welpr'S Weird Video
+load: STARTUP
+authors: [ ajToncek ]
+description: In this video, we'll be playing minecraft, but our texturepack changes every two minutes
+website: https://plugins.itoncek.cf
+commands:
+  start:
+    description: This command will start the game
