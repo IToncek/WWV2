@@ -1,0 +1,11 @@
+# Add 'repo' label to any root file changes
+pom.xml:
+- pom.xml
+
+# Add '@domain/core' label to any change within the 'core' package
+source:
+- src/**/*
+
+# Add 'source' label to any change to src files within the source dir EXCEPT for the docs sub-folder
+github:
+- .github/**/*
